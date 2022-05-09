@@ -51,7 +51,7 @@ bool is_prime (ui64 num)
 
 int main (int argc, char **argv)
 {
-    ui64 limit, i, bkpi, count_of_nums;
+    ui64 limit, i, bkpi, line, count_of_nums;
     double percent;
     char *endptr;
     File fdata;
@@ -72,6 +72,7 @@ int main (int argc, char **argv)
 
     i = 2;
     bkpi = i;
+    line = 1;
     count_of_nums = 0;
 
     // open the data storage file
@@ -92,9 +93,10 @@ int main (int argc, char **argv)
         // main code
         if (is_prime (i)) {
             count_of_nums++;
-            fprintf (fdata, "[%ld, %ld]: %ld\r\n", bkpi, i, count_of_nums);
+            fprintf (fdata, "%ld: [%ld, %ld]: %ld\r\n", line, bkpi, i, count_of_nums);
             count_of_nums = 0;
             bkpi = i + 1;
+            line++;
         } else
             count_of_nums++;
         i++;
