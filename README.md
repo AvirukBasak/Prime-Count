@@ -10,4 +10,4 @@ A graphical representation of the data will be able to tell us if prime numbers 
 This can be used to gain understanding into the idea `There could be an infinite number of prime numbers`.
 
 ### Plot
-![plot](https://raw.githubusercontent.com/AvirukBasak/Prime-Count/main/plot.png?token=GHSAT0AAAAAABUIQKEG3DUAI2H6MFVGHHG4YTZDKXQ)
+![plot](https://raw.githubusercontent.com/AvirukBasak/Prime-Count/main/plot.png)
