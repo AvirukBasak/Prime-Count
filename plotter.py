@@ -12123,4 +12123,4 @@ y = [
 ]
 
 plt.plot (x, y)
-plt.show();
+plt.savefig ("plot.png")
