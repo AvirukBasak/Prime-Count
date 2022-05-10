@@ -11,3 +11,6 @@ This can be used to gain understanding into the idea `There could be an infinite
 
 ### Plot
 ![plot](https://raw.githubusercontent.com/AvirukBasak/Prime-Count/main/plot.png)
+
+### Conclusion
+Prime numbers neither get rarer nor abundant as we move to larger +ve integers.
