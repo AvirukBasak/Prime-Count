@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 
 import re
+import matplotlib
+
+matplotlib.use ("Agg")
+
 import matplotlib.pyplot as plt
 
 x = []
