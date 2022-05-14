@@ -20,8 +20,8 @@ options:
 	@exit
 
 # required stuff
-CC		= gcc
-DBG	   = gdb
+CC        = gcc
+DBG       = gdb -q
 DBG_FLAGS = -Wall -D DEBUG="(1)" -g3 -ggdb
 REL_FLAGS = -Wall -Ofast
 
